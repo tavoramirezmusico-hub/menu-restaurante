@@ -1,1 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Delicias - Menú</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header / Navegación -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo.png" alt="Logo Restaurante">
+                <h1>Delicias Restaurant</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#comidas">Comidas</a></li>
+                    <li><a href="#bebidas">Bebidas</a></li>
+                    <li><a href="#postres">Postres</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
+    <!-- Sección de Bienvenida -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <h2>Bienvenido a Delicias</h2>
+            <p>Sabores que enamoran, experiencias que perduran</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn-primary">Ver Menú</a>
+                <a href="https://wa.me/50671012511" target="_blank" class="btn-whatsapp">
+                    <i class="fab fa-whatsapp"></i> Pedir por WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menú de Comidas -->
+    <section id="comidas" class="menu-section">
+        <div class="container">
+            <h2>🍽️ Platos Principales</h2>
+            <div class="menu-grid" id="comidas-grid">
+                <!-- Los items se cargarán con JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Menú de Bebidas -->
+    <section id="bebidas" class="menu-section">
+        <div class="container">
+            <h2>🥤 Bebidas</h2>
+            <div class="menu-grid" id="bebidas-grid">
+                <!-- Los items se cargarán con JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Menú de Postres -->
+    <section id="postres" class="menu-section">
+        <div class="container">
+            <h2>🍰 Postres</h2>
+            <div class="menu-grid" id="postres-grid">
+                <!-- Los items se cargarán con JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Botones de Acción Fijos -->
+    <div class="action-buttons">
+        <a href="https://wa.me/50671012511" target="_blank" class="float-whatsapp">
+            <i class="fab fa-whatsapp"></i>
+            <span>Pedido a Domicilio</span>
+        </a>
+        <button onclick="solicitarMesa()" class="float-mesa">
+            <i class="fas fa-chair"></i>
+            <span>Entrega en Mesa</span>
+        </button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Delicias Restaurant</h3>
+                    <p><i class="fas fa-phone"></i> +506 7101-2511</p>
+                    <p><i class="fas fa-clock"></i> Lun-Dom: 11:00am - 10:00pm</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/50671012511" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Delicias Restaurant. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
