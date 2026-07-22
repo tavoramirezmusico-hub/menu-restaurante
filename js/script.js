@@ -6,7 +6,7 @@ const menuData = {
             nombre: "Pasta Alfredo",
             descripcion: "Pasta fettuccine con salsa cremosa de parmesano y pollo",
             precio: 8500,
-            imagen: "img/comida1.jpg",
+            imagen: "img/comida1.webp",
             categoria: "comidas"
         },
         {
@@ -14,7 +14,7 @@ const menuData = {
             nombre: "Hamburguesa Deluxe",
             descripcion: "Doble carne, queso cheddar, tocino y salsa especial",
             precio: 7500,
-            imagen: "img/comida2.jpg",
+            imagen: "img/comida2.webp",
             categoria: "comidas"
         },
         {
@@ -22,7 +22,7 @@ const menuData = {
             nombre: "Salmón a la Plancha",
             descripcion: "Salmón con vegetales salteados y salsa de miel",
             precio: 9500,
-            imagen: "img/comida3.jpg",
+            imagen: "img/comida3.webp",
             categoria: "comidas"
         }
     ],
