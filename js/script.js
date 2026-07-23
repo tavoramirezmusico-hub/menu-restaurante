@@ -58,7 +58,7 @@ const menuData = {
             nombre: "Tiramisú",
             descripcion: "Clásico italiano con café y mascarpone",
             precio: 5000,
-            imagen: "img/postre1.jpg",
+            imagen: "img/postre1.webp",
             categoria: "postres"
         },
         {
@@ -66,7 +66,7 @@ const menuData = {
             nombre: "Cheesecake de Fresa",
             descripcion: "Base de galleta con crema de queso y fresas",
             precio: 5500,
-            imagen: "img/postre2.jpg",
+            imagen: "img/postre2.webp",
             categoria: "postres"
         }
     ]
