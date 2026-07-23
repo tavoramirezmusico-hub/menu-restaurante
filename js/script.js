@@ -32,7 +32,7 @@ const menuData = {
             nombre: "Limonada Natural",
             descripcion: "Limonada fresca con hierbabuena",
             precio: 3500,
-            imagen: "img/bebida1.jpg",
+            imagen: "img/bebida1.webp",
             categoria: "bebidas"
         },
         {
@@ -40,7 +40,7 @@ const menuData = {
             nombre: "Smoothie de Frutas",
             descripcion: "Mix de frutas tropicales con yogurt",
             precio: 4000,
-            imagen: "img/bebida2.jpg",
+            imagen: "img/bebida2.webp",
             categoria: "bebidas"
         },
         {
@@ -48,7 +48,7 @@ const menuData = {
             nombre: "Café Especial",
             descripcion: "Café de origen con leche y canela",
             precio: 3000,
-            imagen: "img/bebida3.jpg",
+            imagen: "img/bebida3.webp",
             categoria: "bebidas"
         }
     ],
